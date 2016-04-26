@@ -45,7 +45,7 @@ namespace youconsoleapp
 			email_details.Fromname = "sender name";
 			email_details.From = "from@example.com";
 			email_details.Subject = "Test email sent using Pepiopst Csharp SDK";
-			email_details.Content = "<p>This emnail is sent using Pepipost CSharp SDK</p>";
+			email_details.Content = "<p>This email is sent using Pepipost CSharp SDK</p>";
 
 			System.Collections.Generic.List<string>	recipients = new System.Collections.Generic.List<string> {"recipient@example.com"};
 
