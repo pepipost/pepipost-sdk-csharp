@@ -1,0 +1,8 @@
+/home/rakhee/Downloads/Pepipost+API/PepipostAPI.Standard/bin/Debug/netstandard1.3/PepipostAPI.Standard.deps.json
+/home/rakhee/Downloads/Pepipost+API/PepipostAPI.Standard/bin/Debug/netstandard1.3/PepipostAPI.Standard.dll
+/home/rakhee/Downloads/Pepipost+API/PepipostAPI.Standard/bin/Debug/netstandard1.3/PepipostAPI.Standard.pdb
+/home/rakhee/Downloads/Pepipost+API/PepipostAPI.Standard/obj/Debug/netstandard1.3/PepipostAPI.Standard.csproj.CoreCompileInputs.cache
+/home/rakhee/Downloads/Pepipost+API/PepipostAPI.Standard/obj/Debug/netstandard1.3/PepipostAPI.Standard.AssemblyInfoInputs.cache
+/home/rakhee/Downloads/Pepipost+API/PepipostAPI.Standard/obj/Debug/netstandard1.3/PepipostAPI.Standard.AssemblyInfo.cs
+/home/rakhee/Downloads/Pepipost+API/PepipostAPI.Standard/obj/Debug/netstandard1.3/PepipostAPI.Standard.dll
+/home/rakhee/Downloads/Pepipost+API/PepipostAPI.Standard/obj/Debug/netstandard1.3/PepipostAPI.Standard.pdb
