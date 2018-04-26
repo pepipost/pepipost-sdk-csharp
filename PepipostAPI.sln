@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PepipostAPI.Standard", "PepipostAPI.Standard\PepipostAPI.Standard.csproj", "{A7C3B85C-90DB-47A2-84D3-2661D87236BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C", "C\C.csproj", "{789E31C7-4E4C-4B85-A679-129797EE461A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7C3B85C-90DB-47A2-84D3-2661D87236BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C3B85C-90DB-47A2-84D3-2661D87236BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C3B85C-90DB-47A2-84D3-2661D87236BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C3B85C-90DB-47A2-84D3-2661D87236BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{789E31C7-4E4C-4B85-A679-129797EE461A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789E31C7-4E4C-4B85-A679-129797EE461A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789E31C7-4E4C-4B85-A679-129797EE461A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789E31C7-4E4C-4B85-A679-129797EE461A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
