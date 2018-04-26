@@ -206,7 +206,7 @@ namespace MyPepiapi
 
 [Back to List of Controllers](#list_of_controllers)
 
-### Authors
+## Authors
 
 ![Vikram Sahu](https://github.com/imvsahu)
 
