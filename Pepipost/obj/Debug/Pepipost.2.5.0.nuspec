@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Pepipost</id>
+    <version>2.5.0</version>
+    <authors>Dibya Sahoo , Vikram Sahu - Pepipost DX Team</authors>
+    <owners>Dibya Sahoo , Vikram Sahu - Pepipost DX Team</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/pepipost/pepipost-sdk-csharp/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/pepipost/pepipost-sdk-csharp/</projectUrl>
+    <iconUrl>https://pepipost.com/assets/img/pepipost-footLogo.png</iconUrl>
+    <description>The Official C# library for Pepipost Web API v2.</description>
+    <releaseNotes>- Updated installation guide to ease the integration with this library.
+- Enhanced error handling while making any email sending request.</releaseNotes>
+    <copyright>Copyright ©  2018</copyright>
+    <tags>transactional email, smtp, email api, c# email sending, azure email sending, dotnet email sending</tags>
+    <repository type="Github Open Source" url="https://github.com/pepipost/pepipost-sdk-csharp/" />
+    <dependencies>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/home/vikram/Downloads/pepi/pepipost-csharp/Pepipost/bin/Debug/netstandard1.3/Pepipost.dll" target="lib/netstandard1.3/Pepipost.dll" />
+  </files>
+</package>

@@ -1,0 +1,17 @@
+/home/vikram/Downloads/pepi/pepipost-csharp/PepipostAPI/bin/Debug/netstandard1.3/PepipostAPI.deps.json
+/home/vikram/Downloads/pepi/pepipost-csharp/PepipostAPI/bin/Debug/netstandard1.3/PepipostAPI.dll
+/home/vikram/Downloads/pepi/pepipost-csharp/PepipostAPI/bin/Debug/netstandard1.3/PepipostAPI.pdb
+/home/vikram/Downloads/pepi/pepipost-csharp/PepipostAPI/obj/Debug/netstandard1.3/Pepipost.csproj.CoreCompileInputs.cache
+/home/vikram/Downloads/pepi/pepipost-csharp/PepipostAPI/obj/Debug/netstandard1.3/Pepipost.AssemblyInfoInputs.cache
+/home/vikram/Downloads/pepi/pepipost-csharp/PepipostAPI/obj/Debug/netstandard1.3/Pepipost.AssemblyInfo.cs
+/home/vikram/Downloads/pepi/pepipost-csharp/PepipostAPI/obj/Debug/netstandard1.3/PepipostAPI.dll
+/home/vikram/Downloads/pepi/pepipost-csharp/PepipostAPI/obj/Debug/netstandard1.3/PepipostAPI.pdb
+/home/vikram/Downloads/pepi/pepipost-csharp/Pepipost/bin/Debug/netstandard1.3/Pepipost.deps.json
+/home/vikram/Downloads/pepi/pepipost-csharp/Pepipost/bin/Debug/netstandard1.3/Pepipost.dll
+/home/vikram/Downloads/pepi/pepipost-csharp/Pepipost/bin/Debug/netstandard1.3/Pepipost.pdb
+/home/vikram/Downloads/pepi/pepipost-csharp/Pepipost/obj/Debug/netstandard1.3/Pepipost.csproj.CoreCompileInputs.cache
+/home/vikram/Downloads/pepi/pepipost-csharp/Pepipost/obj/Debug/netstandard1.3/Pepipost.AssemblyInfoInputs.cache
+/home/vikram/Downloads/pepi/pepipost-csharp/Pepipost/obj/Debug/netstandard1.3/Pepipost.AssemblyInfo.cs
+/home/vikram/Downloads/pepi/pepipost-csharp/Pepipost/obj/Debug/netstandard1.3/Pepipost.dll
+/home/vikram/Downloads/pepi/pepipost-csharp/Pepipost/obj/Debug/netstandard1.3/Pepipost.pdb
+/home/vikram/Downloads/pepi/pepipost-csharp/Pepipost/obj/Debug/netstandard1.3/Pepipost.csprojResolveAssemblyReference.cache
