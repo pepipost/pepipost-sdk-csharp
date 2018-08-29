@@ -48,7 +48,7 @@ If you are using Mono for development, then below steps will help you in integra
       ![monol7](https://app1.falconide.com/integration_imgs/csharp-mono/l7.png)
       
      
-   6. Once all the packages are installed successfully, just copy and paste the [simpleUsage.md](https://github.com/hellovikram/pepipost-csharp/blob/master/simpleUsage.md) in your program.cs file present in your project.
+   6. Once all the packages are installed successfully, just copy and paste the [simpleUsage.md](https://github.com/pepipost/pepipost-sdk-csharp/blob/master/simpleUsage.md) in your program.cs file present in your project.
       
       Build the project as shown below OR by simply hit **F8**
       
