@@ -50,15 +50,15 @@ We have demonstrated the installation with two IDEs which consists of Mono-Devel
   
 1. Installation using Mono-Develop
   
-    * [Using Nuget package manager](https://github.com/hellovikram/pepipost-csharp/blob/master/Mono-installation-nuget.md). 
+    * [Using Nuget package manager](https://github.com/pepipost/pepipost-sdk-csharp/blob/master/Mono-installation-nuget.md). 
   
-    * [Using Github Repository](https://github.com/hellovikram/pepipost-csharp/blob/master/Mono-installation-SDK.md)
+    * [Using Github Repository](https://github.com/pepipost/pepipost-sdk-csharp/blob/master/Mono-installation-SDK.md)
 
 1. Installation using Microsoft Visual Studio
   
     * [Using Nuget Package manager](#quick-start)
     
-    * [Using GitHub Reposistory](https://github.com/hellovikram/pepipost-csharp/blob/master/visual-studio-installation.md)
+    * [Using GitHub Reposistory](https://github.com/pepipost/pepipost-sdk-csharp/blob/master/visual-studio-installation.md)
     
 <a name="quick-start"></a>
 # Quick Start
