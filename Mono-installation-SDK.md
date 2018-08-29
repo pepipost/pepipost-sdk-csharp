@@ -83,7 +83,7 @@ If you are using Mono for development and want to integrated with Pepipost direc
           
    8. Once all the packages are installed successfully 
    
-      Just copy and paste the [simpleUsage.md](https://github.com/pepipost/pepipost-csharp/blob/master/simpleUsage.md) in your program.cs file present in your project.
+      Just copy and paste the [simpleUsage.md](https://github.com/pepipost/pepipost-sdk-csharp/blob/master/simpleUsage.md) in your program.cs file present in your project.
       
       Build the project as shown below OR by just hit **F8** to build
       
