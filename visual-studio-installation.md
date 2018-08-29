@@ -69,7 +69,7 @@ If you are using Visual Studio for development and want to integrated with Pepip
  
    This is the entry point for the execution of the entire solution.
 
-   Here, you can add [simpleUsage.md code](https://github.com/hellovikram/pepipost-csharp/blob/master/simpleUsage.md) 
+   Here, you can add [simpleUsage.md code](https://github.com/pepipost/pepipost-sdk-csharp/blob/master/simpleUsage.md) 
 
   ![Add a reference to the TestConsoleProject](http://app1.falconide.com/integration_imgs/csharp-vs/final-10.png)
 
