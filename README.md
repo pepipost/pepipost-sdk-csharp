@@ -12,13 +12,13 @@
 
 This library contains methods for easily interacting with the Pepipost Email Sending API to send emails within few seconds.
 
-We are trying to make our libraries Community Driven- which means we need your help in building the right things in proper order we would request you to help us by sharing comments, creating new issues or pull requests.
+We are trying to make our libraries Community Driven- which means we need your help in building the right things in proper order we would request you to help us by sharing comments, creating new [issues](https://github.com/pepipost/pepipost-sdk-csharp/issues) or [pull requests](https://github.com/pepipost/pepipost-sdk-csharp/pulls).
 
 We welcome any sort of contribution to this library.
 
 The latest 2.5.0 version of this library provides is fully compatible with the latest Pepipost v2.0 API.
 
-For any update of this library check [Releases]().
+For any update of this library check [Releases](https://github.com/pepipost/pepipost-sdk-csharp/releases).
 
 # Table of Content
   
