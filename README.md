@@ -137,8 +137,8 @@ If you are interested in the future direction of this project, please take a loo
 
 <a name="about"></a>
 ## About
-pepipost-php-sdk library is guided and supported by the Pepipost Developer Experience Team.
-This pepipost-php-sdk library is maintained and funded by Pepipost Ltd. The names and logos for pepipost-php-sdk are trademarks of Pepipost Ltd.
+pepipost-csharp-sdk library is guided and supported by the Pepipost Developer Experience Team.
+This pepipost-csharp-sdk library is maintained and funded by Pepipost Ltd. The names and logos for pepipost-csharp-sdk are trademarks of Pepipost Ltd.
 
 <a name="license"></a>
 ## License
