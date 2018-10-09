@@ -84,7 +84,7 @@ namespace Pepipost.Controllers
             //append request with appropriate headers and parameters
             var _headers = new Dictionary<string,string>()
             {
-                { "user-agent", "APIMATIC 2.0" },
+                { "user-agent", "pepi-sdk-csharp v2" },
                 { "accept", "application/json" },
                 { "content-type", "application/json; charset=utf-8" },
                 { "api_key", apiKey }
