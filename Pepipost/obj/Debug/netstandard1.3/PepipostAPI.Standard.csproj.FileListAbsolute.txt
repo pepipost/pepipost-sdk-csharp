@@ -1,9 +1,0 @@
-/home/vikram/testSDK/Pepipost+API/PepipostAPI.Standard/bin/Debug/netstandard1.3/PepipostAPI.Standard.deps.json
-/home/vikram/testSDK/Pepipost+API/PepipostAPI.Standard/bin/Debug/netstandard1.3/PepipostAPI.Standard.dll
-/home/vikram/testSDK/Pepipost+API/PepipostAPI.Standard/bin/Debug/netstandard1.3/PepipostAPI.Standard.pdb
-/home/vikram/testSDK/Pepipost+API/PepipostAPI.Standard/obj/Debug/netstandard1.3/PepipostAPI.Standard.csprojResolveAssemblyReference.cache
-/home/vikram/testSDK/Pepipost+API/PepipostAPI.Standard/obj/Debug/netstandard1.3/PepipostAPI.Standard.csproj.CoreCompileInputs.cache
-/home/vikram/testSDK/Pepipost+API/PepipostAPI.Standard/obj/Debug/netstandard1.3/PepipostAPI.Standard.AssemblyInfoInputs.cache
-/home/vikram/testSDK/Pepipost+API/PepipostAPI.Standard/obj/Debug/netstandard1.3/PepipostAPI.Standard.AssemblyInfo.cs
-/home/vikram/testSDK/Pepipost+API/PepipostAPI.Standard/obj/Debug/netstandard1.3/PepipostAPI.Standard.dll
-/home/vikram/testSDK/Pepipost+API/PepipostAPI.Standard/obj/Debug/netstandard1.3/PepipostAPI.Standard.pdb
