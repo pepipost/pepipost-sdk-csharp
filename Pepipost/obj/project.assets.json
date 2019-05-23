@@ -1222,10 +1222,11 @@
       ]
     },
     "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -4468,23 +4469,23 @@
     ]
   },
   "packageFolders": {
-    "/home/vikram/.nuget/packages/": {},
+    "/home/netcore/.nuget/packages/": {},
     "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "2.5.0",
     "restore": {
-      "projectUniqueName": "/home/vikram/testSDK/pepipost-sdk-csharp/Pepipost/Pepipost.csproj",
+      "projectUniqueName": "/home/netcore/vikram_repo/official_library/pepipost-sdk-csharp/Pepipost/Pepipost.csproj",
       "projectName": "Pepipost",
-      "projectPath": "/home/vikram/testSDK/pepipost-sdk-csharp/Pepipost/Pepipost.csproj",
-      "packagesPath": "/home/vikram/.nuget/packages/",
-      "outputPath": "/home/vikram/testSDK/pepipost-sdk-csharp/Pepipost/obj",
+      "projectPath": "/home/netcore/vikram_repo/official_library/pepipost-sdk-csharp/Pepipost/Pepipost.csproj",
+      "packagesPath": "/home/netcore/.nuget/packages/",
+      "outputPath": "/home/netcore/vikram_repo/official_library/pepipost-sdk-csharp/Pepipost/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/vikram/.config/NuGet/NuGet.Config"
+        "/home/netcore/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard1.3"
@@ -4507,14 +4508,13 @@
       "netstandard1.3": {
         "dependencies": {
           "NETStandard.Library": {
-            "suppressParent": "All",
             "target": "Package",
-            "version": "1.6.1",
+            "version": "[1.6.1, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "11.0.2"
+            "version": "[11.0.2, )"
           }
         }
       }
