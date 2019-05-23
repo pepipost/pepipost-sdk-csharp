@@ -15,7 +15,6 @@ using Newtonsoft.Json.Converters;
 using Pepipost;
 using Pepipost.Utilities;
 
-
 namespace Pepipost.Models
 {
     public class Personalizations : BaseModel 
@@ -25,8 +24,10 @@ namespace Pepipost.Models
         private string xApiheaderCc;
         private string xApiheader;
         private object attributes;
+        private object xHeaders;
         private List<Models.Attachments> attachments;
         private List<string> recipientCc;
+        private List<string> recipientBcc;
 
         /// <summary>
         /// Emails to be passed in Apicall
@@ -99,6 +100,23 @@ namespace Pepipost.Models
         /// <summary>
         /// TODO: Write general description for this method
         /// </summary>
+        [JsonProperty("x-headers")]
+        public object XHeaders
+        {
+            get
+            {
+                return this.xHeaders;
+            }
+            set
+            {
+                this.xHeaders = value;
+                onPropertyChanged("XHeaders");
+            }
+        }
+
+        /// <summary>
+        /// TODO: Write general description for this method
+        /// </summary>
         [JsonProperty("attachments")]
         public List<Models.Attachments> Attachments 
         { 
@@ -129,5 +147,23 @@ namespace Pepipost.Models
                 onPropertyChanged("RecipientCc");
             }
         }
+
+        /// <summary>
+        /// TODO: Updated by vikram for bcc functionality support in SDK
+        /// </summary>
+        [JsonProperty("recipient_bcc")]
+        public List<string> RecipientBcc
+        {
+            get
+            {
+                return this.recipientBcc;
+            }
+            set
+            {
+                this.recipientBcc = value;
+                onPropertyChanged("RecipientBcc");
+            }
+        }
+
     }
 } 
