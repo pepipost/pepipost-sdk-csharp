@@ -26,6 +26,7 @@ namespace Pepipost.Models
         private Models.From mfrom;
         private string subject;
         private string content;
+        private string ampcontent;
         private List<Models.EmailBodyAttachments> attachments;
         private Models.Settings settings;
         private string replyToId;
@@ -113,6 +114,23 @@ namespace Pepipost.Models
             {
                 this.content = value;
                 onPropertyChanged("Content");
+            }
+        }
+
+        /// <summary>
+        /// TODO: Write general description for this method
+        /// </summary>
+        [JsonProperty("ampcontent")]
+        public string AmpContent
+        {
+            get
+            {
+                return this.ampcontent;
+            }
+            set
+            {
+                this.ampcontent = value;
+                onPropertyChanged("AmpContent");
             }
         }
 

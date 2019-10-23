@@ -55,9 +55,9 @@ namespace Pepipost.Controllers
         /// <param name="apiKey">Optional parameter: Generated header parameter. Example value ='5ce7096ed4bf2b39dfa932ff5fa84ed9ed8'</param>
         /// <param name="body">Optional parameter: The body passed will be json format.</param>
         /// <return>Returns the Models.SendEmailResponse response from the API call</return>
-        public Models.SendEmailResponse CreateSendEmail(string apiKey = null, Models.EmailBody body = null)
+        public Models.SendEmailResponse CreateSendEmail(string apiKey = null, Models.EmailBody body = null, string url = null)
         {
-            Task<Models.SendEmailResponse> t = CreateSendEmailAsync(apiKey, body);
+            Task<Models.SendEmailResponse> t = CreateSendEmailAsync(apiKey, body, url);
             APIHelper.RunTaskSynchronously(t);
             return t.Result;
         }
@@ -68,15 +68,22 @@ namespace Pepipost.Controllers
         /// <param name="apiKey">Optional parameter: Generated header parameter. Example value ='5ce7096ed4bf2b39dfa932ff5fa84ed9ed8'</param>
         /// <param name="body">Optional parameter: The body passed will be json format.</param>
         /// <return>Returns the Models.SendEmailResponse response from the API call</return>
-        public async Task<Models.SendEmailResponse> CreateSendEmailAsync(string apiKey = null, Models.EmailBody body = null)
+        public async Task<Models.SendEmailResponse> CreateSendEmailAsync(string apiKey = null, Models.EmailBody body = null, string url = null)
         {
             //the base uri for api requests
             string _baseUri = Configuration.BaseUri;
 
             //prepare query string for API call
-            StringBuilder _queryBuilder = new StringBuilder(_baseUri);
-            _queryBuilder.Append("/v2/sendEmail");
+            StringBuilder _queryBuilder = new StringBuilder();
 
+            if (url == null)
+            {
+                _queryBuilder.Append(_baseUri + "/v2/sendEmail");
+            }
+            else
+            {
+                _queryBuilder.Append(url);
+            }
 
             //validate and preprocess url
             string _queryUrl = APIHelper.CleanUrl(_queryBuilder);
