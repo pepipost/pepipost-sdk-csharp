@@ -30,11 +30,11 @@ namespace TestConsoleProject
 
             // List of Email Recipients
             body_personalizations_0.Recipient = "my-email-id@domain.com"; //To/Recipient email address
-            //body_personalizations_0.Attributes = APIHelper.JsonDeserialize<Object>("{'name':'pepi'}");
-           // body_personalizations_0.RecipientCc = new List<string>() {"hitesh@pepipost.com"};
+            body_personalizations_0.RecipientCc = new List<string>() {"cc-email-id@domain.com"};
+            body_personalizations_0.Attributes = new Attributes("{'name':'pepi','love':'mail'}").GetAttributes();
             body_personalizations_0.XApiheaderCc = "x api header cc content python";
             body_personalizations_0.XApiheader = "xapi header for emails python";
-            //body_personalizations_0.RecipientBcc = new List<string>() { "hiteshkumar.pandey@netcore.co.in" };
+            body_personalizations_0.RecipientBcc = new List<string>() { "bcc-email-id@domain.com"};
 
             body_personalizations_0.Attachments = new List<Attachments>();
             Attachments body_personalizations_0_attachments_0 = new Attachments();
@@ -42,14 +42,10 @@ namespace TestConsoleProject
             body_personalizations_0_attachments_0.FileName = "pepipost3.txt";
             body_personalizations_0.Attachments.Add(body_personalizations_0_attachments_0);
 
-            body_personalizations_0.Attributes = new Attributes("{'name':'pepi','love':'mail'}").GetAttributes();
             body_personalizations_0.XHeaders = new Xheaders("{'arg1':'value1','arg2':'value2'}").GetXheaders();
             body.Personalizations.Add(body_personalizations_0);
-
             body.Tags = "Csharp";
 
-            /*Console.WriteLine(body_personalizations_0.Attributes.GetType());
-            return;*/
             body.From = new From();
 
             // Email Header
