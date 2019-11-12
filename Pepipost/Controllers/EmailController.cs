@@ -76,7 +76,7 @@ namespace Pepipost.Controllers
             //prepare query string for API call
             StringBuilder _queryBuilder = new StringBuilder();
 
-            if (url == null)
+            if (string.IsNullOrWhiteSpace(url))
             {
                 _queryBuilder.Append(_baseUri + "/v2/sendEmail");
             }
