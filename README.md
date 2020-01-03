@@ -1,4 +1,4 @@
-![pepipostlogo](https://pepipost.com/assets/img/pepipost-footLogo.png)
+![pepipostlogo](https://pepipost.com/wp-content/uploads/2017/07/P_LOGO.png)
 
 [![NuGet](https://img.shields.io/nuget/v/Pepipost.svg)](https://www.nuget.org/packages/Pepipost)
 [![Open Source Helpers](https://www.codetriage.com/pepipost/pepipost-sdk-csharp/badges/users.svg)](https://www.codetriage.com/pepipost/pepipost-sdk-csharp)
