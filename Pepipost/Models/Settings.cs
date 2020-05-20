@@ -24,6 +24,7 @@ namespace Pepipost.Models
         private int? footer;
         private int? clicktrack;
         private int? opentrack;
+        private int? hepf;
         private int? unsubscribe;
         private string bcc;
 
@@ -75,6 +76,23 @@ namespace Pepipost.Models
             {
                 this.opentrack = value;
                 onPropertyChanged("Opentrack");
+            }
+        }
+        
+        /// <summary>
+        /// TODO: Write general description for this method
+        /// </summary>
+        [JsonProperty("hepf")]
+        public int? hepf 
+        { 
+            get 
+            {
+                return this.hepf; 
+            } 
+            set 
+            {
+                this.hepf = value;
+                onPropertyChanged("hepf");
             }
         }
 
