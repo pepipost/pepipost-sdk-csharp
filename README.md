@@ -126,7 +126,7 @@ We have demonstrated the installation with two IDEs which consists of Mono-Devel
 <a name="announcements"></a>
 # Announcements
 
-v2.5.0 has been released! Please see the [release notes](https://github.com/pepipost/pepipost-sdk-csharp/releases/tag/v2.5.0) for details.
+v5.0.0 has been released! Please see the [release notes](https://github.com/pepipost/pepipost-sdk-csharp/releases/tag/v5.0.1) for details.
 
 All updates to this library are documented in our [releases](https://github.com/pepipost/pepipost-sdk-csharp/releases). For any queries, feel free to reach out us at dx@pepipost.com
 
