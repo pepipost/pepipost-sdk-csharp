@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Pepipost</id>
+    <version>0.1.0</version>
+    <authors>Pepipost</authors>
+    <owners>Pepipost</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Automatically generated using APIMatic.</description>
+    <copyright>Copyright ©  2017</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\vikram\Desktop\pepipost-csharp-sdk\pepipost-csharp\Pepipost\bin\Debug\netstandard1.3\Pepipost.dll" target="lib\netstandard1.3\Pepipost.dll" />
+  </files>
+</package>

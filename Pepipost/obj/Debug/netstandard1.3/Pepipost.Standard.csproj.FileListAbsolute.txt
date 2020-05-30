@@ -1,0 +1,9 @@
+C:\Users\vikram\Downloads\sample-csharp\sample-csharp\Pepipost\bin\Debug\netstandard1.3\Pepipost.deps.json
+C:\Users\vikram\Downloads\sample-csharp\sample-csharp\Pepipost\bin\Debug\netstandard1.3\Pepipost.dll
+C:\Users\vikram\Downloads\sample-csharp\sample-csharp\Pepipost\bin\Debug\netstandard1.3\Pepipost.pdb
+C:\Users\vikram\Downloads\sample-csharp\sample-csharp\Pepipost\obj\Debug\netstandard1.3\Pepipost.csprojAssemblyReference.cache
+C:\Users\vikram\Downloads\sample-csharp\sample-csharp\Pepipost\obj\Debug\netstandard1.3\Pepipost.AssemblyInfoInputs.cache
+C:\Users\vikram\Downloads\sample-csharp\sample-csharp\Pepipost\obj\Debug\netstandard1.3\Pepipost.AssemblyInfo.cs
+C:\Users\vikram\Downloads\sample-csharp\sample-csharp\Pepipost\obj\Debug\netstandard1.3\Pepipost.csproj.CoreCompileInputs.cache
+C:\Users\vikram\Downloads\sample-csharp\sample-csharp\Pepipost\obj\Debug\netstandard1.3\Pepipost.dll
+C:\Users\vikram\Downloads\sample-csharp\sample-csharp\Pepipost\obj\Debug\netstandard1.3\Pepipost.pdb
