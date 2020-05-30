@@ -3,67 +3,61 @@
 ```csharp
 using System;
 using System.Collections.Generic;
-using Pepipost.Controllers;
-using Pepipost.Models;
-using Pepipost.Exceptions;
+using System.Globalization;
+using System.Threading.Tasks;
+using Pepipost;
 using Pepipost.Utilities;
-using Pepipost.Http;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
-
-namespace TestConsoleProject
+using Pepipost.Models;
+using Pepipost.Controllers;
+using Pepipost.Exceptions;
+using System.IO;
+namespace Testing
 {
-    class MainClass
-    {
-        public static void Main(string[] args)
-        {
-            //initialization of library
-            Pepipost.PepipostClient client = new Pepipost.PepipostClient();
-            EmailController email = client.Email;
-            EmailBody body = new EmailBody();
-
-            string apiKey = "Your api key here"; //Add your Pepipost APIkey from panel here
-
-            body.Personalizations = new List<Personalizations>();
-
-            Personalizations body_personalizations_0 = new Personalizations();
-	    
-	    // List of Email Recipients
-            body_personalizations_0.Recipient = "recipient@exampledomain.com"; //To/Recipient email address
-            body_personalizations_0.Attributes = APIHelper.JsonDeserialize<Object>("{}");
-            body.Personalizations.Add(body_personalizations_0);
-
-            body.From = new From();
-            
-	    // Email Header
-            body.From.FromEmail = "sender@exampledomain.com"; //Sender Email Address. Please note that the sender domain @exampledomain.com should be verified and active under your Pepipost account.
-            body.From.FromName = "Pepi"; //Sender/From name
-	    
-	    //Email Body Content
-            body.Subject = "Pepipost Test Email"; //Subject of email
-            body.Content = "<html><body>Hey,<br><br>Congratulations, Integration is Successfully Completed.<br>This is your first email from Pepipost C# library.<br>Happy Emailing<br><br>Thanks,<br>Pepipost";
-            body.Settings = new Settings();
-
-            body.Settings.Footer = 0;
-            body.Settings.Clicktrack = 1; //Clicktrack for emails enable=1 | disable=0
-            body.Settings.Opentrack = 1; //Opentrack for emails enable=1 | disable=0
-            body.Settings.Unsubscribe = 1; //Unsubscribe for emails enable=1 | disable=0
-			SendEmailResponse result = email.CreateSendEmailAsync(apiKey, body).Result;
-
-            try
-            {
-				if(result.Message.Contains("Error")){
-					Console.WriteLine("\n" + "Message ::" + result.Message + "\n" + "Error Code :: " + result.ErrorInfo.ErrorCode + "\n" + "Error Message ::" + result.ErrorInfo.ErrorMessage + "\n");
-				}else{
-					Console.WriteLine("\n" + "Message ::" + result.Message);
-				}
-                
-            }
-            catch (APIException) { };
-
-            Console.WriteLine("Happy Mailing !");
-        }
+  class Program {
+    static void Main(string[] args){
+      Configuration.ApiKey = "api_key";
+      PepipostClient client = new PepipostClient();
+      MailSendController mailSend = client.MailSend;
+      Send body = new Send();
+      body.From = new From();
+      body.From.Email = "hello@your-registered-domain-with-pepipost";
+      body.From.Name = "Pepipost";
+      body.Subject = "Pepipost Test Mail from SDK";
+      body.Content = new List<Content>();
+      Content body_content_0 = new Content();
+      body_content_0.Type = Type.HTML;
+      body_content_0.Value = "<html><body>Hello, Welcome to Pepipost Family.<br>My name is [% name %].<br>my love is sending [% love %]</body> <br></html>";
+      body.Content.Add(body_content_0);
+      body.Personalizations = new List<Personalizations>();
+      Personalizations body_personalizations_0 = new Personalizations();
+      body_personalizations_0.Attributes = APIHelper.JsonDeserialize<Object>("{\"name\":\"Pepi\",\"love\":\"Email\"}");
+      body_personalizations_0.To = new List<EmailStruct>();
+      EmailStruct body_personalizations_0_to_0 = new EmailStruct();
+      body_personalizations_0_to_0.Name = "to-address";
+      body_personalizations_0_to_0.Email = "to-address@mydomain.name";
+      body_personalizations_0.To.Add(body_personalizations_0_to_0);
+      body_personalizations_0.Cc = new List<EmailStruct>();
+      EmailStruct body_personalizations_0_cc_0 = new EmailStruct();
+      body_personalizations_0_cc_0.Name = "to-cc-name";
+      body_personalizations_0_cc_0.Email = "to-bcc-name";
+      body_personalizations_0.Cc.Add(body_personalizations_0_cc_0);
+      body_personalizations_0.Bcc = new List<EmailStruct>();
+      EmailStruct body_personalizations_0_bcc_0 = new EmailStruct();
+      body_personalizations_0_bcc_0.Name = "to-bcc-name";
+      body_personalizations_0_bcc_0.Email = "to-bcc-name@mydomain.name";
+      body_personalizations_0.Bcc.Add(body_personalizations_0_bcc_0);
+      body.Personalizations.Add(body_personalizations_0);
+      body.Settings = new Settings();
+      body.Settings.Footer = true;
+      body.Settings.ClickTrack = true;
+      body.Settings.OpenTrack = true;
+      body.Settings.UnsubscribeTrack = true;
+      try 
+      {
+        object result = mailSend.CreateGeneratethemailsendrequestAsync(body).Result;
+      }
+      catch (APIException e){};        
     }
+  }
 }
 ```
