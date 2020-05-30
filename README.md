@@ -16,7 +16,7 @@ We are trying to make our libraries Community Driven- which means we need your h
 
 We welcome any sort of contribution to this library.
 
-The latest 2.5.0 version of this library provides is fully compatible with the latest Pepipost v2.0 API.
+The latest 5.0.0 version of this library provides is fully compatible with the latest Pepipost v5.0 API.
 
 For any update of this library check [Releases](https://github.com/pepipost/pepipost-sdk-csharp/releases).
 
