@@ -25,7 +25,7 @@ namespace Testing
       body.Subject = "Pepipost Test Mail from SDK";
       body.Content = new List<Content>();
       Content body_content_0 = new Content();
-      body_content_0.Type = Type.HTML;
+      body_content_0.Type = TypeEnum.HTML;
       body_content_0.Value = "<html><body>Hello, Welcome to Pepipost Family.<br>My name is [% name %].<br>my love is sending [% love %]</body> <br></html>";
       body.Content.Add(body_content_0);
       body.Personalizations = new List<Personalizations>();

@@ -1,0 +1,17 @@
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\bin\Debug\netcoreapp3.1\TestAPI.exe
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\bin\Debug\netcoreapp3.1\TestAPI.deps.json
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\bin\Debug\netcoreapp3.1\TestAPI.runtimeconfig.json
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\bin\Debug\netcoreapp3.1\TestAPI.runtimeconfig.dev.json
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\bin\Debug\netcoreapp3.1\TestAPI.dll
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\bin\Debug\netcoreapp3.1\TestAPI.pdb
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\bin\Debug\netcoreapp3.1\Pepipost.dll
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\bin\Debug\netcoreapp3.1\Pepipost.pdb
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.csprojAssemblyReference.cache
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.AssemblyInfoInputs.cache
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.AssemblyInfo.cs
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.csproj.CoreCompileInputs.cache
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.csproj.CopyComplete
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.dll
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.pdb
+C:\Users\vikram\Downloads\sample-csharp\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.genruntimeconfig.cache
