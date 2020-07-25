@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vikram\\Desktop\\pepipost-csharp-sdk\\pepipost-csharp\\Pepipost\\Pepipost.csproj": {}
+    "C:\\Users\\pepitest\\Downloads\\v5\\pepipost-sdk-csharp\\Pepipost\\Pepipost.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vikram\\Desktop\\pepipost-csharp-sdk\\pepipost-csharp\\Pepipost\\Pepipost.csproj": {
+    "C:\\Users\\pepitest\\Downloads\\v5\\pepipost-sdk-csharp\\Pepipost\\Pepipost.csproj": {
       "version": "0.1.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vikram\\Desktop\\pepipost-csharp-sdk\\pepipost-csharp\\Pepipost\\Pepipost.csproj",
+        "projectUniqueName": "C:\\Users\\pepitest\\Downloads\\v5\\pepipost-sdk-csharp\\Pepipost\\Pepipost.csproj",
         "projectName": "Pepipost",
-        "projectPath": "C:\\Users\\vikram\\Desktop\\pepipost-csharp-sdk\\pepipost-csharp\\Pepipost\\Pepipost.csproj",
-        "packagesPath": "C:\\Users\\vikram\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vikram\\Desktop\\pepipost-csharp-sdk\\pepipost-csharp\\Pepipost\\obj\\",
+        "projectPath": "C:\\Users\\pepitest\\Downloads\\v5\\pepipost-sdk-csharp\\Pepipost\\Pepipost.csproj",
+        "packagesPath": "C:\\Users\\pepitest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pepitest\\Downloads\\v5\\pepipost-sdk-csharp\\Pepipost\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vikram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pepitest\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,7 +48,7 @@
               "version": "[12.0.3, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

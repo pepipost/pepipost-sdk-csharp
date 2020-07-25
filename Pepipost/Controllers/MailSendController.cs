@@ -21,7 +21,7 @@ using Pepipost.Exceptions;
 
 namespace Pepipost.Controllers
 {
-    public partial class MailSendController: BaseController
+    public partial class MailSendController : BaseController
     {
         #region Singleton Pattern
 
@@ -66,23 +66,30 @@ namespace Pepipost.Controllers
         /// </summary>
         /// <param name="body">Required parameter: New mail request will be generated</param>
         /// <return>Returns the object response from the API call</return>
-        public async Task<object> CreateGeneratethemailsendrequestAsync(Models.Send body)
+        public async Task<object> CreateGeneratethemailsendrequestAsync(Models.Send body, string url = null)
         {
             //the base uri for api requests
             string _baseUri = Configuration.BaseUri;
 
             //prepare query string for API call
-            StringBuilder _queryBuilder = new StringBuilder(_baseUri);
-            _queryBuilder.Append("/mail/send");
+            StringBuilder _queryBuilder = new StringBuilder();
 
+            if (string.IsNullOrWhiteSpace(url))
+            {
+                _queryBuilder.Append("/mail/send");
+            }
+            else
+            {
+                _queryBuilder.Append(url + "/v5/mail/send");
+            }
 
             //validate and preprocess url
             string _queryUrl = APIHelper.CleanUrl(_queryBuilder);
 
             //append request with appropriate headers and parameters
-            var _headers = new Dictionary<string,string>()
+            var _headers = new Dictionary<string, string>()
             {
-                { "user-agent", "APIMATIC 2.0" },
+                { "user-agent", "pepi-sdk-csharp v5" },
                 { "content-type", "application/json; charset=utf-8" }
             };
             _headers.Add("api_key", Configuration.ApiKey);
@@ -94,24 +101,8 @@ namespace Pepipost.Controllers
             HttpRequest _request = ClientInstance.PostBody(_queryUrl, _headers, _body);
 
             //invoke request and get response
-            HttpStringResponse _response = (HttpStringResponse) await ClientInstance.ExecuteAsStringAsync(_request).ConfigureAwait(false);
-            HttpContext _context = new HttpContext(_request,_response);
-
-            //Error handling using HTTP status codes
-            if (_response.StatusCode == 400)
-                throw new APIException(@"API Response", _context);
-
-            if (_response.StatusCode == 401)
-                throw new APIException(@"API Response", _context);
-
-            if (_response.StatusCode == 403)
-                throw new APIException(@"API Response", _context);
-
-            if (_response.StatusCode == 405)
-                throw new APIException(@"Invalid input", _context);
-
-            //handle errors defined at the API level
-            base.ValidateResponse(_response, _context);
+            HttpStringResponse _response = (HttpStringResponse)await ClientInstance.ExecuteAsStringAsync(_request).ConfigureAwait(false);
+            HttpContext _context = new HttpContext(_request, _response);
 
             try
             {
@@ -119,9 +110,9 @@ namespace Pepipost.Controllers
             }
             catch (Exception _ex)
             {
-                throw new APIException("Failed to parse the response: " + _ex.Message, _context);
+                throw new APIException("Failed to parse the response: " + _ex.Message + "\nResponse : " + _response.Body, _context);
             }
         }
 
     }
-} 
+}
