@@ -46,9 +46,10 @@ namespace TestAPI
             body.Personalizations.Add(body_personalizations_0);
             body.Tags = new List<string>();
             body.Tags.Add("campaign");
+            const string dynamicURL = "https://api.pepipost.com"; //(pass if any other url is suggested)
             try
             {
-                object result = mailSend.CreateGeneratethemailsendrequestAsync(body).Result;
+                object result = mailSend.CreateGeneratethemailsendrequestAsync(body,dynamicURL).Result;
                 Console.WriteLine(result);
             }
             catch (APIException e) { };
