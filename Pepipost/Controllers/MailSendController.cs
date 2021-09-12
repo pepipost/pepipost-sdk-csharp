@@ -76,7 +76,7 @@ namespace Pepipost.Controllers
 
             if (string.IsNullOrWhiteSpace(url))
             {
-                _queryBuilder.Append("/mail/send");
+                _queryBuilder.Append($"{_baseUri}/mail/send");
             }
             else
             {
