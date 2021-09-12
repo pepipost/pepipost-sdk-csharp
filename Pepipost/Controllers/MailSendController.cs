@@ -80,7 +80,7 @@ namespace Pepipost.Controllers
             }
             else
             {
-                _queryBuilder.Append(url + "/v5/mail/send");
+                _queryBuilder.Append(url + $"{_baseUri}/v5/mail/send");
             }
 
             //validate and preprocess url
